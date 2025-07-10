@@ -57,4 +57,33 @@
    color: #4f46e5;
  }
 
+ /* Action Section */
+.action-section {
+   background-color: #f6f8ff;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 60px 10%;
+   gap: 40px;
+ }
+ 
+ .action-section h2 {
+   font-size: 1.8rem;
+   font-weight: 700;
+   color: #1a1a1a;
+   margin-bottom: 15px;
+ }
+ 
+ .action-section p {
+   font-size: 1rem;
+   color: #6b7280;
+   margin-bottom: 20px;
+ }
+ 
+ .image-content img {
+   max-width: 100%;
+   border-radius: 16px;
+ }
+ 
+
  
