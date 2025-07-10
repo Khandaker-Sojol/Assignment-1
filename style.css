@@ -10,7 +10,7 @@
    background-repeat: no-repeat;
    justify-content: space-between;
    padding: 30px;
-   margin-bottom: 100px;
+   
  }
  
  /* Header */
@@ -46,6 +46,7 @@
  .banner-text {
    text-align: center;
    margin-top: 20px;
+   padding-bottom: 100px;
  }
 .banner-text h1 {
    margin-bottom: 18px;
@@ -64,9 +65,8 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 60px 10%;
+   padding: 40px 10%;
    gap: 40px;
-   margin-top: 100px;
  }
  
  .action-section h2 {
@@ -166,6 +166,43 @@ input, textarea {
 
 button.submit-btn:hover {
    background-color: #3f4e8c;
+}
+
+/* Footer Section Styling */
+footer {
+   background-color: #fff;
+   padding: 40px;
+   text-align: center;
+   border-top: 1px solid #ddd;
+}
+.logo h1 {
+   font-size: 48px;
+   font-weight:bolder;
+   color: #1e3ce4;
+   margin-bottom: 10px;
+}
+
+.footer-description {
+   color: #777;
+   margin-bottom: 30px;
+}
+
+.footer-nav ul {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   margin-top: 20px;
+}
+
+.footer-nav ul li a {
+   text-decoration: none;
+   color: #777;
+}
+
+.footer-nav ul li a:hover {
+   color: #5c6bc0;
+   
 }
 
  
