@@ -38,7 +38,7 @@
 
  .primary-btn:hover {
    padding: 12px 20px;
-   background-color: #1d176d;
+   background-color: #bdb111;
  }
  
 
@@ -84,6 +84,42 @@
    max-width: 100%;
    border-radius: 16px;
  }
+
+ /* User Section */
+.user-section {
+   background-color: #f6f8ff;
+   padding: 60px 10%;
+   text-align: center;
+ }
+ 
+ .user-section h2 {
+   font-size: 1.6rem;
+   font-weight: 700;
+   margin-bottom: 30px;
+   color: #1a1a1a;
+ }
+ 
+ .user-container {
+   background-color: #e8eaff;
+   border-radius: 20px;
+   padding: 30px 20px;
+   display: flex;
+   justify-content: space-around;
+   gap: 20px;
+ }
+ 
+ .user-info h3 {
+   font-size: 2rem;
+   color: #4f46e5;
+   font-weight: bold;
+   margin-bottom: 10px;
+ }
+ 
+ .user-info p {
+   font-size: 0.95rem;
+   color: #6b7280;
+ }
+ 
  
 
  
